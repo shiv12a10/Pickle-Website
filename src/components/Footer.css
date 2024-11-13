@@ -1,0 +1,40 @@
+.footer{
+    height: 10rem;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.details{
+    text-align: right;
+}
+.details-list{
+    list-style: none;
+}
+
+.details-list > li{
+    padding-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-footer{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+hr{
+    border: 0.5px solid black;
+}
+
+.me{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
